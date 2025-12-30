@@ -1,0 +1,33 @@
+a. Monitor System Resources
+
+df: Shows disk space usage of file systems.
+Example: df -h
+
+du: Displays disk usage of files and directories.
+Example: du -sh folder/
+
+free: Shows memory (RAM) usage.
+Example: free -h
+
+uptime: Displays how long the system has been running and load average.
+
+vmstat: Reports memory, CPU, and process statistics.
+
+b. Archiving and Compression
+
+tar: Archives multiple files/directories into one file (can also compress).
+Example: tar -czvf backup.tar.gz folder/
+
+zip: Compresses files into a .zip archive.
+Example: zip -r files.zip folder/
+
+unzip: Extracts .zip archives.
+Example: unzip files.zip
+
+c. Usage, Options, and Sample Outputs
+
+Use -h for human-readable output.
+
+Use -r for recursive operations on directories.
+
+Sample outputs show size, usage percentage, and resource status, helping with system health monitoring.
