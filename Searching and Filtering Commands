@@ -1,0 +1,32 @@
+a. Use grep to Search Within Files
+
+grep searches for specific words or patterns inside files.
+
+Commonly used to find logs, errors, or keywords.
+
+Example:
+grep "error" logfile.txt
+
+Useful options:
+-i (ignore case), -n (show line number), -r (recursive search).
+
+b. Locate Files and Directories
+
+find: Searches files and directories based on name, type, size, or time.
+Example: find /home -name file.txt
+
+locate: Quickly finds files using a pre-built database.
+Example: locate file.txt
+
+find is real-time and accurate, while locate is faster but depends on database updates.
+
+c. Combine Commands with Pipes (|)
+
+Pipes send the output of one command as input to another.
+
+Allows powerful filtering and searching.
+
+Example:
+ls -l | grep ".txt"
+
+Helps narrow results efficiently without creating extra files.
