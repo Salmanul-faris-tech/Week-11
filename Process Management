@@ -1,0 +1,38 @@
+a. Monitor Processes with ps and top / htop
+
+ps: Displays running processes and their details (PID, user, CPU, memory).
+
+Example: ps aux
+
+top: Shows real-time process activity and system resource usage.
+
+htop: An enhanced, user-friendly version of top with colors and interactive controls.
+
+b. Kill Processes Using kill with PID
+
+kill is used to stop or terminate a process using its Process ID (PID).
+
+Example:
+kill 1234
+
+Signals can be used, such as:
+
+SIGTERM (graceful stop)
+
+SIGKILL (kill -9, force stop)
+
+c. Jobs and bg / fg (Background & Foreground Processes)
+
+jobs: Lists processes running in the background of the current shell.
+
+bg: Resumes a stopped job in the background.
+
+fg: Brings a background job to the foreground.
+
+Example:
+
+command & → run in background
+
+Ctrl + Z → pause a job
+
+bg %1 / fg %1
