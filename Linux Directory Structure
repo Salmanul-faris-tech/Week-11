@@ -1,0 +1,29 @@
+a. Purpose of Key Directories
+
+/bin (Binaries)
+Contains essential command-line programs needed for basic system operation.
+Examples: ls, cp, mv, cat
+
+/etc (Configuration Files)
+Stores system-wide configuration files and settings.
+Examples: passwd, hosts, ssh/sshd_config
+
+/home (User Home Directories)
+Contains personal directories for each user.
+Examples: /home/user/Documents, /home/user/Downloads
+
+/var (Variable Data)
+Holds data that changes frequently during system operation.
+Examples: log/, spool/, cache/
+
+/usr (User Programs & Data)
+Stores installed applications, libraries, and documentation.
+Examples: /usr/bin, /usr/lib, /usr/share
+
+/tmp (Temporary Files)
+Stores temporary files created by applications and users.
+Examples: session files, temporary downloads (often cleared on reboot)
+
+b. Summary
+
+Each directory in Linux has a specific role that helps organize the system efficiently, improve security, and simplify management.
