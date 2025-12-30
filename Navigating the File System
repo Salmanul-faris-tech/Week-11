@@ -1,0 +1,35 @@
+a. Practice with commands: ls, cd, pwd, tree
+
+ls: Lists files and directories in the current directory.
+Example: ls -l shows detailed information.
+
+cd: Changes the current directory.
+Example: cd Documents
+
+pwd: Displays the full path of the current directory.
+
+tree: Shows directories and files in a tree-like structure, making hierarchy easy to understand.
+
+b. Absolute vs Relative Paths
+
+Absolute path: Full path starting from the root (/).
+Example: /home/user/Documents/file.txt
+
+Relative path: Path relative to the current directory.
+Example: Documents/file.txt
+
+Absolute paths work from anywhere, while relative paths depend on your current location.
+
+c. Simple Mind Map of Directory Navigation
+/
+├── home
+│   └── user
+│       ├── Documents
+│       ├── Downloads
+│       └── Pictures
+├── etc
+├── var
+└── usr
+
+
+This mind map helps visualize directory structure and understand how folders are connected.
