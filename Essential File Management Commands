@@ -1,0 +1,32 @@
+a. Learn: cp, mv, rm, touch
+
+cp: Copies files or directories.
+Example: cp file.txt backup.txt
+
+mv: Moves or renames files and directories.
+Example: mv old.txt new.txt
+
+rm: Deletes files or directories.
+Example: rm file.txt
+
+touch: Creates an empty file or updates a file’s timestamp.
+Example: touch notes.txt
+
+b. Practice with options: -r, -f, -i
+
+-r (recursive): Works on directories and their contents.
+Example: rm -r folder/
+
+-f (force): Removes files without confirmation or error messages.
+Example: rm -f file.txt
+
+-i (interactive): Asks for confirmation before each action.
+Example: rm -i file.txt
+
+c. Test Commands in Different Directories and File Types
+
+Practice managing text files, images, and folders.
+
+Use commands inside home, subdirectories, and nested folders.
+
+This helps understand command behavior, permissions, and file structures.
