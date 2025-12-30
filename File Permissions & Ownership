@@ -1,0 +1,41 @@
+a. Understand chmod for Changing File Permissions
+
+chmod is used to change access permissions of files and directories.
+
+Permissions control who can read (r), write (w), or execute (x) a file.
+
+Example:
+chmod +x script.sh → makes a file executable.
+
+b. Symbolic vs Numeric Modes
+
+Symbolic mode
+
+Uses letters to define users and permissions.
+
+u (user/owner), g (group), o (others)
+
+Example:
+chmod u+x file.sh → adds execute permission to the owner.
+
+Numeric mode
+
+Uses numbers to set permissions quickly.
+
+4 = read, 2 = write, 1 = execute
+
+Example:
+chmod 755 file.sh
+
+Owner: read, write, execute
+
+Group & Others: read, execute
+
+c. Use chown to Change File Ownership
+
+chown changes the owner and group of a file or directory.
+
+Example:
+chown user:group file.txt
+
+Often used by administrators to manage file access securely.
